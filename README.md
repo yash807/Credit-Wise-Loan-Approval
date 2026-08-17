@@ -45,7 +45,7 @@ These results are an exploratory baseline from a single train-test split, not ev
 
 ```text
 Credit-Wise-Loan-Approval/
-├── credit_wise.ipynb
+├── Credit_Wise_Loan_Approval.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -58,7 +58,7 @@ cd Credit-Wise-Loan-Approval
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook credit_wise.ipynb
+jupyter notebook Credit_Wise_Loan_Approval.ipynb
 ```
 
 Place the source dataset at the repository root as:
@@ -73,7 +73,7 @@ The expected data includes applicant income, co-applicant income, employment, ag
 
 The notebook outputs are intentionally cleared in Git to reduce file size and improve GitHub rendering. Run all cells locally to reproduce the exploratory charts and model metrics.
 
-If GitHub's notebook preview is temporarily unavailable, open the notebook with [nbviewer](https://nbviewer.org/github/yash807/Credit-Wise-Loan-Approval/blob/main/credit_wise.ipynb).
+If GitHub's notebook preview is temporarily unavailable, open the notebook with [nbviewer](https://nbviewer.org/github/yash807/Credit-Wise-Loan-Approval/blob/main/Credit_Wise_Loan_Approval.ipynb).
 
 ## Responsible-use note
 
@@ -85,4 +85,3 @@ This repository is an educational data-science project and must not be used to a
 - Cross-validation and hyperparameter tuning have not yet been added.
 - The project does not currently provide calibrated probabilities or a deployed inference service.
 - Future work could add a reusable preprocessing pipeline, fairness metrics, ROC/PR analysis, model calibration, and an explainability layer.
-
